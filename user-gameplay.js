@@ -6,7 +6,7 @@ while(input !== "q"){
     console.log("(w)up, (s)down, (a)left, (d)right, (q)uit.");
     input = prompt("which way would you like to move?  ");
     
-    switch(input){
+    switch(input.toLowerCase()){
         case "w":
             console.log("You moved up.\n");           // user moved up
             break;
